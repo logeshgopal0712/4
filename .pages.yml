@@ -23,6 +23,10 @@ content:
         label: Link
         type: string
 
+      - name: paymentLink
+        label: PaymentLink
+        type: string
+
       - name: image
         label: Image
         type: string
