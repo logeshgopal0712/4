@@ -26,5 +26,9 @@
   {
     "src": "data/gallery/gallery-07.jpg",
     "alt": "Studio Z gallery image 7"
+  },
+  {
+    "src": "data/gallery/virat.webp",
+    "alt": "virat"
   }
 ]
