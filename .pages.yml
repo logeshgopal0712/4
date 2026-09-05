@@ -35,7 +35,6 @@ content:
         label: Video
         type: string
 
-gallery:
   - name: gallery
     label: Gallery
     type: file
