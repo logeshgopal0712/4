@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact Studio Z for a quote." />
+    <title>Contact | Studio Z</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@700;800&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css?v=44" />
+    <script src="script.js?v=44" defer></script>
+  </head>
+  <body data-page="contact">
+    
+    <header class="page-site-header">
+      <nav class="nav-shell" aria-label="Main navigation">
+        <a class="brand" href="index.html" aria-label="Studio Z home"><img src="assets/logo.jpg" alt="Studio Z logo" /><strong>Studio Z</strong></a>
+        <div class="desktop-nav"><a href="#top">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a><a href="reviews.html">Reviews</a><a href="contact.html" class="active">Contact</a><a href="appointment.html">Appointment</a></div>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span><span></span><span></span><span class="sr-only">Open navigation</span>
+        </button>
+      </nav>
+      <div class="mobile-nav" id="mobile-menu" hidden><a href="#top">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a><a href="reviews.html">Reviews</a><a href="contact.html" class="active">Contact</a><a href="appointment.html">Appointment</a></div>
+      <div class="page-banner">
+        <p class="eyebrow">Studio Z</p>
+        <h1>Contact</h1>
+      </div>
+    </header>
+    <main class="page-main">
+      <section class="content-section contact-section">
+        <div class="contact-copy">
+          <p class="eyebrow">Start a conversation</p>
+          <h2>Get a quote from Studio Z</h2>
+          <p>Tell us what you need and we will get back to you with the next steps.</p>
+          <ul class="contact-details"><li><a href="mailto:logeshgopal0712@gmail.com">logeshgopal0712@gmail.com</a></li><li><a href="tel:2069471885">2069471885</a></li><li>Redmond, WA, 98052</li></ul>
+        </div>
+        <form class="contact-form" id="contact-submission-form" action="https://api.web3forms.com/submit" method="post" data-form-kind="contact">
+          
+          <input type="hidden" name="access_key" value="9248cad1-c646-497d-9b4e-7cc7e934f33a" />
+          <input class="spam-trap" type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" />
+          <div class="captcha-field">
+            <div class="h-captcha" id="contact-captcha" data-captcha="true"></div>
+          </div>
+          <input type="hidden" name="subject" value="New contact request for Studio Z" />
+          <label>Name<input name="name" autocomplete="name" required /></label>
+          <label>Email<input name="email" type="email" autocomplete="email" required /></label>
+          <label>Phone<input name="phone" type="tel" autocomplete="tel" /></label>
+          <label>How can we help?<textarea name="message" rows="5" required></textarea></label>
+          <button type="submit">Request a quote <span aria-hidden="true">→</span></button>
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="index.html"><img src="assets/logo.jpg" alt="Studio Z logo" /><strong>Studio Z</strong></a>
+      <small>© <span id="copyright-years" data-start-year="2025"></span> Studio Z. All rights reserved.</small>
+    </footer>
+  </body>
+</html>

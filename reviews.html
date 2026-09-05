@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Customer reviews for Studio Z." />
+    <title>Customer reviews | Studio Z</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@700;800&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css?v=44" />
+    <script src="script.js?v=44" defer></script>
+  </head>
+  <body data-page="reviews">
+    
+    <header class="page-site-header">
+      <nav class="nav-shell" aria-label="Main navigation">
+        <a class="brand" href="index.html" aria-label="Studio Z home"><img src="assets/logo.jpg" alt="Studio Z logo" /><strong>Studio Z</strong></a>
+        <div class="desktop-nav"><a href="#top">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a><a href="reviews.html" class="active">Reviews</a><a href="contact.html">Contact</a><a href="appointment.html">Appointment</a></div>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span><span></span><span></span><span class="sr-only">Open navigation</span>
+        </button>
+      </nav>
+      <div class="mobile-nav" id="mobile-menu" hidden><a href="#top">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a><a href="reviews.html" class="active">Reviews</a><a href="contact.html">Contact</a><a href="appointment.html">Appointment</a></div>
+      <div class="page-banner">
+        <p class="eyebrow">Studio Z</p>
+        <h1>Customer reviews</h1>
+      </div>
+    </header>
+    <main class="page-main reviews-page">
+      <section class="content-section">
+        
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Customer feedback</p>
+          <h2>Reviews</h2>
+        </div>
+        
+      </div>
+        <div class="data-status" id="reviews-status">Loading reviews…</div>
+        <div class="carousel-shell" data-carousel>
+          <button class="carousel-arrow previous" type="button" data-carousel-direction="-1" aria-label="Previous reviews">←</button>
+          <div class="review-grid" id="review-list" data-carousel-track></div>
+          <button class="carousel-arrow next" type="button" data-carousel-direction="1" aria-label="Next reviews">→</button>
+        </div>
+        
+      <section class="review-submission-section">
+        <div class="review-submission-copy">
+          <p class="eyebrow">Share your experience</p>
+          <h2>Write a review</h2>
+        </div>
+        <form class="contact-form review-form" id="review-submission-form" action="https://api.web3forms.com/submit" method="post" data-review-form data-form-kind="review" data-company="Studio Z">
+          <input type="hidden" name="subject" value="New customer review for Studio Z" data-review-subject />
+          <input type="hidden" name="_subject" value="New customer review for Studio Z" data-review-subject />
+          
+          <input type="hidden" name="access_key" value="9248cad1-c646-497d-9b4e-7cc7e934f33a" />
+          <input class="spam-trap" type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" />
+          <div class="captcha-field">
+            <div class="h-captcha" id="review-captcha" data-captcha="true"></div>
+          </div>
+          <label>Your name<input name="name" autocomplete="name" required /></label>
+          <label>Email<input name="email" type="email" autocomplete="email" required /></label>
+          <fieldset class="star-rating">
+            <legend>Your rating</legend>
+            <div class="star-rating-options">
+              <input id="review-star-5" name="stars" type="radio" value="5" />
+              <label for="review-star-5" title="5 stars"><span class="sr-only">5 stars</span>★</label>
+              <input id="review-star-4" name="stars" type="radio" value="4" />
+              <label for="review-star-4" title="4 stars"><span class="sr-only">4 stars</span>★</label>
+              <input id="review-star-3" name="stars" type="radio" value="3" />
+              <label for="review-star-3" title="3 stars"><span class="sr-only">3 stars</span>★</label>
+              <input id="review-star-2" name="stars" type="radio" value="2" />
+              <label for="review-star-2" title="2 stars"><span class="sr-only">2 stars</span>★</label>
+              <input id="review-star-1" name="stars" type="radio" value="1" />
+              <label for="review-star-1" title="1 star"><span class="sr-only">1 star</span>★</label>
+            </div>
+          </fieldset>
+          <label>Your review<textarea name="review" rows="5" required></textarea></label>
+          <button type="submit">Submit review <span aria-hidden="true">→</span></button>
+        </form>
+      </section>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="index.html"><img src="assets/logo.jpg" alt="Studio Z logo" /><strong>Studio Z</strong></a>
+      <small>© <span id="copyright-years" data-start-year="2025"></span> Studio Z. All rights reserved.</small>
+    </footer>
+  </body>
+</html>
