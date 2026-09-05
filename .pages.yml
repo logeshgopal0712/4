@@ -1,6 +1,13 @@
 media:
-  input: data/gallery
-  output: data/gallery
+  - name: serviceImages
+    label: ServiceImages
+    input: data/services/images
+    output: data/services/images
+    
+  - name: galleryImages
+    label: GalleryImages
+    input: data/gallery
+    output: data/gallery
 
 content:
   - name: services
