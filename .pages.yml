@@ -1,3 +1,7 @@
+media:
+  input: data/gallery
+  output: data/gallery
+
 content:
   - name: services
     label: Services
