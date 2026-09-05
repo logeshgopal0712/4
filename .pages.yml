@@ -34,3 +34,21 @@ content:
       - name: video
         label: Video
         type: string
+
+gallery:
+  - name: gallery
+    label: Gallery
+    type: file
+    path: data/gallery/gallery.json
+    format: json
+    list: true
+
+    fields:
+      - name: src
+        label: Src
+        type: string
+
+      - name: alt
+        label: Alt
+        type: string
+
