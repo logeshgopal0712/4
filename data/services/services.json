@@ -1,9 +1,13 @@
 [
   {
+    "title": "Meditation",
+    "description": "Get some calm with my meditation section`",
+    "image": "data/services/images/chosenAlignment.jpg"
+  },
+  {
     "title": "1:1",
     "description": "get most out of it 50$",
     "price": "50$",
-    "link": "",
     "paymentLink": "https://buy.stripe.com/cNi6oAcbRcceb6C9q73gk00",
     "image": "data/services/images/service-01.jpg",
     "video": "https://www.youtube.com/watch?v=YBBlRDuqe-o"
@@ -13,7 +17,6 @@
     "description": "consult and get to know more",
     "price": "$10",
     "link": "https://www.amazon.com/Shnuggle-Newborn-Support-Backrest-Suitable/dp/B098TQSX2J/?_encoding=UTF8&pd_rd_w=8f1VQ&content-id=amzn1.sym.505820f6-82bf-4d1f-8aac-dec6ded4023c%3Aamzn1.symc.32ebad87-fd42-49f9-af28-14561e5d3009&pf_rd_p=505820f6-82bf-4d1f-8aac-dec6ded4023c&pf_rd_r=MKQEKCY0NAWEB9PJERGS&pd_rd_wg=fet1Z&pd_rd_r=ba1ff656-4d1e-40ce-a7b7-35fc818967c6&ref_=pd_hp_d_r_btf_ci_mcx_mr_mosaic_fy_union_hxwHBF_sspa_dk_gateway&ie=UTF8&psc=1&spc=MTo3ODEwODc4MzEyNDk0Mjg1OjE3ODg0NzIxNTY6c3BfaG9tZXBhZ2VfYmxlbmRlZDozMDEwNzExMzY4MTE5MDI6MDoxOjo=&sp_csd=d2lkZ2V0TmFtZT1zcF9ob21lcGFnZV9ibGVuZGVk",
-    "paymentLink": "",
     "image": "data/services/images/service-02.jpg",
     "video": "https://www.youtube.com/watch?v=CksA-ct9rd8"
   },
@@ -22,17 +25,14 @@
     "description": "Get a free demo",
     "price": "free",
     "link": "https://www.amazon.com/Shnuggle-Newborn-Support-Backrest-Suitable/dp/B098TQSX2J/?_encoding=UTF8&pd_rd_w=8f1VQ&content-id=amzn1.sym.505820f6-82bf-4d1f-8aac-dec6ded4023c%3Aamzn1.symc.32ebad87-fd42-49f9-af28-14561e5d3009&pf_rd_p=505820f6-82bf-4d1f-8aac-dec6ded4023c&pf_rd_r=MKQEKCY0NAWEB9PJERGS&pd_rd_wg=fet1Z&pd_rd_r=ba1ff656-4d1e-40ce-a7b7-35fc818967c6&ref_=pd_hp_d_r_btf_ci_mcx_mr_mosaic_fy_union_hxwHBF_sspa_dk_gateway&ie=UTF8&psc=1&spc=MTo3ODEwODc4MzEyNDk0Mjg1OjE3ODg0NzIxNTY6c3BfaG9tZXBhZ2VfYmxlbmRlZDozMDEwNzExMzY4MTE5MDI6MDoxOjo=&sp_csd=d2lkZ2V0TmFtZT1zcF9ob21lcGFnZV9ibGVuZGVk",
-    "paymentLink": "",
     "image": "data/services/images/service-03.jpg",
     "video": "https://www.youtube.com/shorts/B9q8iywViKk"
   },
   {
     "title": "Group",
     "description": "only image testing :) :)",
-    "price": "",
     "link": "https://www.amazon.com/Shnuggle-Newborn-Support-Backrest-Suitable/dp/B098TQSX2J/?_encoding=UTF8&pd_rd_w=8f1VQ&content-id=amzn1.sym.505820f6-82bf-4d1f-8aac-dec6ded4023c%3Aamzn1.symc.32ebad87-fd42-49f9-af28-14561e5d3009&pf_rd_p=505820f6-82bf-4d1f-8aac-dec6ded4023c&pf_rd_r=MKQEKCY0NAWEB9PJERGS&pd_rd_wg=fet1Z&pd_rd_r=ba1ff656-4d1e-40ce-a7b7-35fc818967c6&ref_=pd_hp_d_r_btf_ci_mcx_mr_mosaic_fy_union_hxwHBF_sspa_dk_gateway&ie=UTF8&psc=1&spc=MTo3ODEwODc4MzEyNDk0Mjg1OjE3ODg0NzIxNTY6c3BfaG9tZXBhZ2VfYmxlbmRlZDozMDEwNzExMzY4MTE5MDI6MDoxOjo=&sp_csd=d2lkZ2V0TmFtZT1zcF9ob21lcGFnZV9ibGVuZGVk",
     "paymentLink": "https://buy.stripe.com/4gM14g8ZFcceeiOcCj3gk01",
-    "image": "data/services/images/service-04.jpg",
-    "video": ""
+    "image": "data/services/images/service-04.jpg"
   }
 ]
