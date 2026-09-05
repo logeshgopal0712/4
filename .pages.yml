@@ -44,8 +44,8 @@ content:
 
     fields:
       - name: src
-        label: Src
-        type: string
+        label: Image
+        type: image
 
       - name: alt
         label: Alt
