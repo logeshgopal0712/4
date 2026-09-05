@@ -6,7 +6,8 @@
   },
   {
     "title": "Breathing",
-    "description": "Breath with me"
+    "description": "Breath with me",
+    "image": "data/services/images/breath.jpg"
   },
   {
     "title": "1:1",
